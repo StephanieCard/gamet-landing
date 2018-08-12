@@ -1,5 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="130" height="100">
-<path d="M50,100a50,50 0 0 1 0,-100 h 30 a50,50 0 0 1 0,100zM50,87.5 a 37.5,37.5 0 0 1 0,-75 h 30 a 37.5,37.5 0 0 1 0,75z" fill="#ffffff" fill-rule="evenodd" />
-<path d="M40.235,26.455h14.68l20.3,32.83v-32.83h14.55v47.09h-14.54l-20.39,-32.84v32.84h-14.59 z" fill="#ffffff" />
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 130 100" style="enable-background:new 0 0 130 100;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#111111;}
+</style>
+<g>
+	<path class="st0" d="M80,0H50C22.4,0,0,22.4,0,50s22.4,50,50,50h30c27.6,0,50-22.4,50-50S107.6,0,80,0z M79.8,88.3h-30
+		c-20.7,0-37.5-16.8-37.5-37.5s16.8-37.5,37.5-37.5h30c20.7,0,37.5,16.8,37.5,37.5S100.5,88.3,79.8,88.3z"/>
+</g>
+<path class="st0" d="M40.2,26.5h14.7l20.3,32.8V26.5h14.6v47.1H75.2L54.8,40.7v32.8H40.2L40.2,26.5z"/>
 </svg>
