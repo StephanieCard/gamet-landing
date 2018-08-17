@@ -453,10 +453,10 @@ h1, h2, h3, h4, h5, h6, p, span {
 
 @media(min-width: 1000px){
     
-    @keyframes girar {
+     @keyframes girar {
         0% { transform: translateX(0)}
         100% { transform: translateX(-2500px)}
-    }
+   }  
     
     #carrossel{
         width: 770px;
@@ -501,6 +501,8 @@ h1, h2, h3, h4, h5, h6, p, span {
         align-items: center;
         justify-content: center;
         animation: girar 30s linear infinite;
+        /* will-change: transform;
+        transform: translate3d(-25000px, 0, 0); */
         
     }
     .quadro{
