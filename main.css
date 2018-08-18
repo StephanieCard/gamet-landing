@@ -564,8 +564,30 @@ h1, h2, h3, h4, h5, h6, p, span {
     align-items: center;
     position: relative;
     overflow: hidden;
-    margin: 3vh 0 3vh 0;
+    margin: 4vh 0 4vh 0;
    }
+    #carrossel::before {
+        background: linear-gradient(to right,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%);
+        content: "";
+        height: 326px;
+        position: absolute;
+        width: 50px;
+        z-index: 2;
+        left: 0;
+        top: 0;
+    }
+    
+    #carrossel::after {
+        background: linear-gradient(to right,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%);
+        content: "";
+        height: 326px;
+        position: absolute;
+        width: 50px;
+        z-index: 2;
+        right: 0;
+        top: 0;
+        transform: rotateZ(180deg);
+    }
 
 
 
@@ -648,7 +670,8 @@ h1, h2, h3, h4, h5, h6, p, span {
     align-items: center;
     flex-wrap: wrap;
     flex-direction: column;
-    margin-bottom: 5vh;
+    margin-bottom: 10vh;
+    margin-top: 5vh;
 }
 
 .video-app{
