@@ -470,7 +470,7 @@ h1, h2, h3, h4, h5, h6, p, span {
         
     }
 
-    #carrossel::before {
+   /* #carrossel::before {
         background: linear-gradient(to right,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%);
         content: "";
         height: 500px;
@@ -492,7 +492,7 @@ h1, h2, h3, h4, h5, h6, p, span {
         top: 0;
         transform: rotateZ(180deg);
     }
-
+*/
     
     .carrossel-container{
         width: 2000000px;
@@ -557,7 +557,7 @@ h1, h2, h3, h4, h5, h6, p, span {
 
 @media(min-width: 11px){
     #carrossel {
-    width: 86vw;
+    width: 100vw;
     height: 330px;
     display: flex;
     flex-direction: row;
@@ -566,6 +566,8 @@ h1, h2, h3, h4, h5, h6, p, span {
     overflow: hidden;
     margin: 3vh 0 3vh 0;
    }
+
+
 
 }
 
@@ -580,6 +582,29 @@ h1, h2, h3, h4, h5, h6, p, span {
     overflow: hidden;
     margin: 3vh 0 3vh 0;
 }
+
+ #carrossel::before {
+        background: linear-gradient(to right,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%);
+        content: "";
+        height: 500px;
+        position: absolute;
+        width: 100px;
+        z-index: 2;
+        left: 0;
+        top: 0;
+    }
+    
+    #carrossel::after {
+        background: linear-gradient(to right,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%);
+        content: "";
+        height: 500px;
+        position: absolute;
+        width: 100px;
+        z-index: 2;
+        right: 0;
+        top: 0;
+        transform: rotateZ(180deg);
+    }
 }
 
 
