@@ -451,7 +451,7 @@ h1, h2, h3, h4, h5, h6, p, span {
     
 }
 
-@media(min-width: 1000px){
+@media(min-width: 10px){
     
      @keyframes girar {
         0% { transform: translateX(0)}
@@ -553,6 +553,33 @@ h1, h2, h3, h4, h5, h6, p, span {
     .seta#esquerda, .seta#direita{
         display: none;
     }
+}
+
+@media(min-width: 11px){
+    #carrossel {
+    width: 86vw;
+    height: 330px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    margin: 3vh 0 3vh 0;
+   }
+
+}
+
+@media(min-width: 500px){
+#carrossel {
+    width: 46vw;
+    height: 330px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    margin: 3vh 0 3vh 0;
+}
 }
 
 
